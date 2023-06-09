@@ -1,0 +1,36 @@
+ .footer{
+        padding: 0px 288px;
+
+        width: 100%;
+        background-color: hsla(176, 91%, 30%, 1);
+        height: 80px;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        &_links{
+            display: flex;
+            gap: 15px;
+            align-items: center;
+        }
+        &_links a {
+            width: 32px;
+            height: 32px ;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: black;
+        }
+}
+@media screen and (max-width:1024px) {
+    .footer{
+        padding: 0px 60px;
+    }
+}
+@media screen and (max-width:490px) {
+    .footer{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}

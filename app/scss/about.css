@@ -1,0 +1,46 @@
+.about {
+  padding: 120px 288px;
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.about_banner {
+  flex: 5;
+}
+.about_text {
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.about_text h3 {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+}
+.about_text h1 {
+  font-size: 20px;
+  font-weight: 700;
+  color: hsl(176, 91%, 30%);
+}
+.about_text p {
+  font-size: 14px;
+  font-weight: 300;
+  color: black;
+}
+
+@media screen and (max-width: 1024px) {
+  .about {
+    padding: 120px 60px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .about {
+    padding: 120px 60px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}/*# sourceMappingURL=about.css.map */

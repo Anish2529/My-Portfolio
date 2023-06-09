@@ -1,0 +1,92 @@
+.hero{
+    padding: 80px 288px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 93px;
+
+    &_banner{
+        flex: 4;
+    }
+    &_items{
+        flex: 5;
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+        align-items: flex-start;
+    }
+    h1{
+        font-size: 64px;
+        font-weight: 700;
+        color: hsl(176, 91%, 30%);
+        line-height: 110%;
+    }
+    p{
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 150%;
+        letter-spacing: -1%;
+    }
+    &_links{
+        display: flex;
+        gap: 15px;
+        align-items: center;
+    }
+    &_links a {
+        width: 32px;
+        height: 32px ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: black;
+    }
+    &_links a:hover{
+        color: hsl(176, 91%, 30%);
+    }
+
+    &_ability{
+        display: flex;
+        gap: 30px;
+    }
+    &_tech{
+        font-weight: 600 !important;
+        font-size: 20px  !important;
+    }
+    &_hiphen{
+        font-weight: 600 !important;
+        font-size: 20px  !important;
+    }
+    &_stock{
+        display: flex;
+        gap: 15px;
+    }
+    &_stock img{
+        width: 25px;
+        height: 25px;
+    }
+}
+@media screen and (max-width:1024px) {
+    .hero{
+        padding: 80px 60px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .hero{
+        padding: 80px 60px;
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+
+        &_items{
+            align-items: center;
+        }
+    }
+}
+
+@media screen and (max-width:490px) {
+    .hero{
+        padding: 80px 50px;
+    }
+}

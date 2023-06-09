@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 150px;
+}
+
+body {
+  background-color: hsl(108, 100%, 98%);
+  font-family: "Poppins", sans-serif;
+}
+
+main {
+  width: 100%;
+  min-height: 100vh;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.totop {
+  position: fixed;
+  right: 5%;
+  bottom: 5%;
+  z-index: 2;
+}
+
+.scroll-top {
+  font-size: 32px;
+  padding: 10px 15px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  animation: water-wave 3s linear-infinite;
+  cursor: pointer;
+}/*# sourceMappingURL=global.css.map */
